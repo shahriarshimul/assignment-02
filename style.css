@@ -1,0 +1,256 @@
+* {
+    margin: 0 auto;
+}
+
+/* banner start */
+.banner {
+    width: 1200px;
+    height: 600px;
+    margin: 30px auto;
+    background: #161616;
+    border-radius: 30px;
+
+}
+
+.blog {
+    margin-bottom: 80px;
+}
+
+
+.content {
+    position: absolute;
+    width: 531px;
+    height: 240px;
+    left: 200px;
+    top: 161px;
+
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
+.watch {
+    width: 500px;
+    margin: 20px 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.btn-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: absolute;
+    width: 200px;
+    background: #DD0000;
+    border-radius: 5px;
+
+}
+
+a {
+    padding-right: 30px;
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 23px;
+    text-decoration: none;
+
+}
+
+.vec {
+    position: absolute;
+    padding-left: 20px;
+    padding-right: 10px;
+    top: 35.83%;
+    bottom: 20.83%;
+}
+
+.header_bg {
+    position: absolute;
+    width: 480px;
+    height: 500px;
+    top: 148px;
+    left: 720px;
+    /* border: 1px solid red; */
+}
+
+.header_bg img {
+    width: 460px;
+    height: 530px;
+    padding-left: 15px;
+}
+
+/* banner end */
+
+/* blog2 start */
+.blog2 {
+    position: absolute;
+    width: 312px;
+    height: 312px;
+    left: 100px;
+    top: 826px;
+    background: #161616;
+    border-radius: 10px;
+}
+
+.blog2 .wrapper {
+    position: absolute;
+    width: 252px;
+    height: 252px;
+    margin: 30px 30px;
+    align-items: center;
+    border-radius: 5px;
+    /* left: 170px; */
+    /* top: 856px; */
+    /* border: 5px solid red; */
+}
+
+.texts {
+    display: flex;
+    flex-direction: row-reverse;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: white;
+    width: 252px;
+    height: 64px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    /* border: 5px solid red; */
+}
+
+.wrapper .texts3 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: white;
+    width: 252px;
+    height: 64px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    background-color: #DD0000;
+}
+
+.wrapper .texts a {
+    color: black;
+}
+
+/* blog2 end */
+
+/* article start */
+
+
+.container {
+    width: 780px;
+    height: 1100px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3, 0.5fr);
+    grid-row-gap: 50px;
+    margin-top: 120px;
+    left: 430px;
+
+}
+
+.box {
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.box img {
+    /* position: absolute; */
+    width: 100%;
+    margin: 0 0 10px 0px;
+    /* border: 1px solid black; */
+    /* padding-right: 12px; */
+    /* position: absolute; */
+
+}
+
+.btn-2 {
+    box-sizing: border-box;
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 32px;
+    margin-left: 15px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161616;
+}
+
+.transfer {
+    width: 250px;
+    height: 50px;
+    display: block;
+    margin-top: 50px;
+    margin-left: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    color: #161616;
+}
+
+.box-4 {
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 13px;
+    display: block;
+    /* left: 200px; */
+    /* top: 1142px; */
+    /* border: 1px solid red; */
+}
+
+
+.box-4 .time {
+    position: absolute;
+    margin-right: 30px;
+    display: block;
+    width: 25px;
+}
+
+.text6 {
+    display: block;
+    margin-left: 30px;
+    margin-top: 4px;
+}
+
+.box-4 .chats {
+    position: absolute;
+    margin-left: 90px;
+    bottom: -6px;
+    display: block;
+    width: 25px;
+}
+
+.text7 {
+    display: block;
+    margin-left: 121px;
+    margin-top: -18px;
+
+}
+
+
+
+/* article end */
