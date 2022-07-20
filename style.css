@@ -87,10 +87,11 @@ a {
     /* border: 1px solid red; */
 }
 
-.header_bg page {
-    width: 460px;
+.header_bg .page {
+    width: 480px;
     height: 530px;
     padding-left: 15px;
+    background-repeat: no-repeat;
 }
 
 /* banner end */
