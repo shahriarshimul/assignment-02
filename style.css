@@ -162,6 +162,7 @@ a {
     grid-row-gap: 50px;
     margin-top: 120px;
     left: 430px;
+    padding-bottom: 150px;
 
 }
 
@@ -253,6 +254,86 @@ a {
 
 }
 
-
-
 /* article end */
+
+/* FOOTER START */
+footer {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 380px;
+    left: 0px;
+    top: 2090px;
+    background-color: #161616;
+}
+
+.footer_main {
+    position: absolute;
+    width: 95px;
+    height: 60px;
+    left: 620px;
+    top: 150px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+hr {
+    position: absolute;
+    width: 1000px;
+    height: 0px;
+    left: 140px;
+    top: 250px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+.footer_end {
+    list-style: none;
+    padding-top: 280px;
+    padding-left: 300px;
+    position: absolute;
+}
+
+.ball {
+    display: inline;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B9B9B9;
+
+}
+
+.foot {
+    list-style: none;
+    padding-top: 340px;
+    padding-left: 500px;
+    position: absolute;
+}
+
+.ball1 {
+    display: inline;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B9B9B9;
+
+}
+
+.ball1 a {
+    color: rgba(255, 255, 255, 0.1)''
+}
+
+.ball1 a:hover {
+    pointer-events: visibleFill;
+}
+
+/* FOOTER END */
